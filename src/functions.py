@@ -35,7 +35,7 @@ def filtered_vacancies(filter_words):
         for i in filter_words:
             if i in words.lower().split() and j not in res_list:
                 res_list.append(j)
-        return res_list
+    return res_list
 
 
 def filtered_pay_range(pay_range):
